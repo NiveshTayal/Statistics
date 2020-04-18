@@ -1,0 +1,50 @@
+Measures of Central Tendency:-A measure of central tendency is a summary statistic that represents the center point or typical value 
+                              of a dataset.
+                              
+In statistics, the three most common measures of central tendency are the mean, median, and mode.
+
+Mean:-The mean is the arithmetic average, and it is probably the measure of central tendency that you are most familiar. 
+                                            μ=Σ(x1+x2+...xn)/n
+Advantages:-
+1) It makes use of every element in the data set.
+Disadvantages:-
+1)It is sensitive to extreme elements. So if the data set is having few very high or few very low values, mean will give unrealistic 
+picture. Best suited for symmetrical distributions.
+
+Example:-
+Dataset:-1,2,3,4,5
+Add all the observations of the given data set and divide it by the total no. of observations in the given data set.
+Mean =1+2+3+4+5/5 =3
+
+Median:-The The median is the middle value. It is the value that splits the dataset in half.
+Advantages:-
+1) It is insensitive to extreme values. Where income disparity or wage disparity is too much, median income gives true picture.
+Disadvantages:-
+1)It has no bearing on shape of data distribution.
+
+Example:-
+Dataset:-1,2,3,4,5
+Median is the value which divides the data set into two equal parts. Median is the (n+1)/2 th observation, 
+where n is the total no. of observations.
+*Arrange all the data values in an ascending order.
+Median=(5+1)/2=3rd observation =3
+
+Dataset:-1,2,4,6
+*Arrange all the data values in an ascending order.
+Median=(4+1)/2=2.5th observation
+              =(2+4)/2
+              =3
+              
+Mode:-The mode is the value that occurs the most frequently in your data set. On a bar chart, the mode is the highest bar. 
+      If the data have multiple values that are tied for occurring the most frequently, you have a multimodal distribution. 
+      If no value repeats, the data do not have a mode.
+      
+Advantages:-
+1) It is most easily understandable. Like, going to a shop where most customers are going. Modal shop appears instantly.
+Disadvantages:-
+1)The data set may have more than one modes or no mode at all.
+
+Example:-
+Dataset:-1,2,2,2,3,4,4,5,6,7
+Mode is the data value corresponding to the highest frequency. It is that value which occurs maximum no. of times in the data set.
+Mode=2 (occurs 3 times)
