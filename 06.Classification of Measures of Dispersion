@@ -1,0 +1,72 @@
+Range
+A range is the most common and easily understandable measure of dispersion. 
+It is the difference between two extreme observations of the data set. If X max and X min are the two extreme observations then
+                                            Range = X max – X min
+
+Advantages
+1) It is the simplest of the measure of dispersion
+2) Easy to calculate
+3) Easy to understand
+4) Independent of change of origin
+
+Disadvantages
+1) It is based on two extreme observations. Hence, get affected by fluctuations
+2) A range is not a reliable measure of dispersion
+3) Dependent on change of scale
+
+Example:-Dataset:-4, 6, 9, 3, 7
+         the lowest value is 3, and the highest is 9. 
+         So the range is 9 − 3 = 6.
+         
+Quartile Deviation
+The quartiles divide a data set into quarters. 
+The first quartile, (Q1) is the middle number between the smallest number and the median of the data. 
+The second quartile, (Q2) is the median of the data set. 
+The third quartile, (Q3) is the middle number between the median and the largest number.
+
+Quartile deviation or semi-inter-quartile deviation is
+                                                Q = (Q3 – Q1)/2
+
+Advantages
+1) All the drawbacks of Range are overcome by quartile deviation
+2) It uses half of the data
+3) Independent of change of origin
+4) The best measure of dispersion for open-end classification
+
+Disadvantages
+1) It ignores 50% of the data
+2) Dependent on change of scale
+3) Not a reliable measure of dispersion
+
+Example:-Dataset:-7, 11, 12, 13, 14, 15, 16, 18, 22
+         n=9
+         Q1 = (9 + 1)/4 => 10/4 => 2.5 Term
+         Q3 = (9 + 1)*3/4 => (10)*3/4 => 7.5 Term
+Calculation of quartile deviation can be done as follows,
+Q1 is an average of 2nd which is11 and adds the product of the difference between 3rd & 4th and 0.5 which is (12-11)*0.5 = 11.50.
+Q3 is 7th term and product of 0.5 and the difference between 8th and 7th term which is (18-16)*0.5 and the result is  16 + 1 = 17.
+Q.D. = (Q3 – Q1) / 2 => (17-11.50) / 2 => 5.5/2
+Q.D.=2.75
+
+Standard Deviation
+A standard deviation is the positive square root of the arithmetic mean of the squares of the deviations of the given values from
+their arithmetic mean. It is denoted by a Greek letter sigma, σ. It is also referred to as root mean square deviation. 
+The standard deviation is given as
+                                  square root of [ (1/N) * Sigma(xi - mean)^2 ]
+                                                          i=1 to N
+ 
+Advantages
+1) Squaring the deviations overcomes the drawback of ignoring signs in mean deviations
+2) Suitable for further mathematical treatment
+3) Least affected by the fluctuation of the observations
+4) The standard deviation is zero if all the observations are constant
+5) Independent of change of origin
+
+Disadvantages
+1) Not easy to calculate
+2) Difficult to understand for a layman
+3) Dependent on the change of scale
+
+Variance
+The square of the standard deviation is the variance. It is also a measure of dispersion.
+                                     Variance= (standard deviation)^2
