@@ -39,6 +39,7 @@ Multiplication Rule 1: If A and B are two independent events in a probability ex
 Multiplication Rule 2: In case of dependent events , the probability that both events occur simultaneously is:
                                              P(A and B)=P(A)⋅P(B | A)
 Note:- The notation P(B | A) means "the probability of B , given that A has happened.
+
 Example:-Suppose you take out two cards from a standard pack of cards one after another, without replacing the first card. 
          What is probability that the first card is the ace of spades, and the second card is a heart?
 Solution:- The two events are dependent events because the first card is not replaced.
