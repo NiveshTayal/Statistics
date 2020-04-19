@@ -1,0 +1,56 @@
+Probability:-
+Probability is the branch of mathematics that deals with the calculation that events happen and ranges from 0 (impossible) to 
+1 (absolute certainty).
+If something is known to be true, it has a probability of 1.
+If something is known to be false, it has a probability of 0.
+
+Probability of Occurrence of an Event:-
+The probability of occurrence of an event is defined as:
+             P(occurrence of an event) = Number of trials in which event occurred
+                                               Total number of trials 
+Example:-1. A dice is thrown 65 times and 4 appeared 2 1 times. Now, in a random throw of a dice, what is the probability of getting a 4?
+Solution:
+Total number of tria1s = 65.
+Number of times 4 appeared = 21.
+Probability of getting a 4 = Number of times 4 appeared/Total number of trials
+                           = 21/65
+
+Experiment:-
+An operation which can produce some well-defined outcomes is called an experiment.
+
+Sample Space:-
+The entire possible set of outcomes of a random experiment is the sample space.
+The sample space for the tossing of three coins simultaneously is given by:
+S = {(T , T , T) , (T , T , H) , (T , H , T) , (T , H , H ) , (H , T , T ) , (H , T , H) , (H , H, T) ,(H , H , H)}
+
+Events/Outcome:-
+Any event consisting of a single point of the sample space is known as an event in probability.
+For example, if S = {56 , 78 , 96 , 54 , 89} and E = {78} then E is an event.
+
+Trial:-
+By a trial, we mean performing a random experiment.
+For example, throwing a die or tossing a coin etc.
+
+Types Of Events:-
+1)Independent Events:- If the occurrence of any event is completely unaffected by the occurrence of any other event, such events are 
+                       known as an independent event in probability.
+                                 P(A and B)=P(A)⋅P(B)
+Example:
+A box contains 4 red marbles and 3 green marbles.One marble is removed from the box and then replaced.Another marble is drawn from the 
+box.  What is the probability that the first marble is red and the second marble is green?
+Note:-Because the first marble is replaced, the size of the sample space ( 7 ) does not change from the first drawing to the second so 
+the events are independent.
+                                      P(red then green)=P(blue)⋅P(green) = (4/7)*(3/7) = 12/49
+                                      
+2)Mutually Exclusive Events:- If the occurrence of one event excludes the occurrence of another event, such events are mutually 
+                              exclusive events i.e. two events don’t have any common point. 
+For example, if S = {1 , 2 , 3 , 4 , 5 , 6} and E1, E2 are two events such that 
+E1 consists of numbers less than 3 and E2 consists of numbers greater than 4.
+So, E1 = {1,2} and E2 = {5,6} .
+Then, E1 and E2 are mutually exclusive.
+
+3)Complementary Events:- For any event E1 there exists another event E1‘ which represents the remaining elements of the sample space S.
+                                                      E1 = S − E1‘
+Example:-If a dice is rolled then the sample space S is given as S = {1 , 2 , 3 , 4 , 5 , 6 }. 
+         If event E1 represents all the outcomes which is greater than 4, then E1 = {5,6} and E1‘ = {1,2,3,4}.
+Thus E1‘ is the complement of the event E1.
