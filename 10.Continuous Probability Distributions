@@ -1,0 +1,16 @@
+Continuous Data:-
+Continuous Data can take any value (within a range) means contains decimal value also.
+Examples:- 1) We know that probability lies between 0 to 1 so that means any point between 0 to 1 i.e. 0.1,0.2,0.3 and so on.
+           2) A person's height: could be any value (within the range of human heights), not just certain fixed heights
+
+Continuous Probability Distributions:-
+1) Continuous probability functions are also known as probability density functions.
+2) Continuous distribution will apply if the variable can assume an infinite number of values between any two values(Continous Data).
+3) Continuous distributions have a zero or lower probability. 
+   For example, the likelihood of measuring a temperature that is exactly 32 degrees is zero.
+4) Probabilities for continuous distributions are measured over ranges of values rather than single points.
+5) The proportion of the area under the curve that falls within a range of values along the X-axis represents the likelihood that a 
+   value will fall within that range. 
+
+Type of Continuous Probability Distributions:-
+1) Normal distribution, which is also known as the Gaussian distribution or the “bell curve.” 
