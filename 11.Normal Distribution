@@ -30,3 +30,20 @@ In all normal distributions, the Empirical Rule tells us that:
 1) About 68% of all data values will fall within +/- 1 standard deviation of the mean.
 2) About 95% of all data values will fall within +/- 2 standard deviations of the mean.
 3) About 99.7% of all data values will fall within +/- 3 standard deviations of the mean.
+
+Example:-
+A certain variety of pine tree has a mean trunk diameter of μ=150cm and a standard deviation σ=30cm
+Approximately what percent of these trees have a diameter greater than 210cm?
+Solution:-
+Step 1: Sketch a normal distribution with a mean μ=150cm and a standard deviation σ=30cm
+Step 2: The diameter of 210cm is two standard deviations above the mean. Shade above that point.
+Step 3: Add the percentages in the shaded area:
+                2.35%+0.15%=2.5%
+About 2.5% of these trees have a diameter greater than 210cm.
+
+
+
+
+
+
+
