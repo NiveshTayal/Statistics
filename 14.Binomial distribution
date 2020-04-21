@@ -1,0 +1,48 @@
+Binomial distribution:-
+1) The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice).
+2) A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or
+   survey that is repeated multiple times. 
+ 
+For example, a coin toss has only two possible outcomes: heads or tails and 
+             taking a test could have two possible outcomes: 
+             1)If you choose head and while tossing head came: pass
+             2)If you choose head and while tossing tail came: fail.
+
+Criteria for Binomial Distribution:-
+1) The experiment consists of n repeated trials. In simple words, Experiment :-Tossing the coin 10 times so n=10
+2) Each trial can result in just two possible outcomes. We call one of these outcomes a success and the other, a failure.
+   So, Tossing a coin will result in two outcome only i.e Head or Tail.
+3) The probability of success, denoted by P, is the same on every trial.
+   In simple word, when you toss the coin 1st time and head came up so Probability= 1/2
+                   Tossing the coin 2nd time and tail comes up so Probability =1/2
+                   Again for 3rd toss, head comes up so Probability=1/2 
+            So, as you see for every trail, Probability is will remain same.
+ 4) The trials are independent; that is, the outcome on one trial does not affect the outcome on other trials.
+    In simple words, getting heads on one trial does not affect whether we get heads on other trials.
+
+Binomial Distribution formula:-
+The binomial distribution formula is:
+                              b(x; n, P) = nCx * P^x * (1 – P)^n – x
+Where:
+nCx = n!/x!(n-x)!
+b = binomial probability
+x = total number of “successes” (pass or fail, heads or tails etc.)
+P = probability of a success on an individual trial
+n = number of trials
+
+Binomial Distribution Properties:-
+The binomial distribution has the following properties:
+The mean of the distribution (μx) is equal to n * P .
+The variance (σ2x) is n * P * ( 1 - P ).
+The standard deviation (σx) is sqrt[ n * P * ( 1 - P ) ].
+
+Example:-
+Suppose a die is tossed 5 times. What is the probability of getting exactly 2 fours?
+Solution: This is a binomial experiment in which the number of trials is equal to 5, 
+                                    So, n=5
+          The number of successes is equal to 2, 
+                                    So, x=2
+          and the probability of success on a single trial is 1/6 or about 0.167. 
+          Therefore, the binomial probability is:
+                     b(2; 5, 0.167) = 5C2 * (0.167)^2 * (1-0.167)^(5-2)
+                     b(2; 5, 0.167) = 0.161
