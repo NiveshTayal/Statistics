@@ -1,0 +1,34 @@
+Standard Normal Distribution:-
+1) Standard Normal Distribution is also known as the Z-distribution.
+2) The standard normal distribution is a special case of the normal distribution where the mean is zero and the standard deviation is 1.
+3) A value on the standard normal distribution is known as a standard score or a Z-score.
+
+Standardization: How to Calculate Z-scores:-
+To standardize your data, you need to convert the raw measurements into Z-scores.
+To calculate the standard score for an observation, take the raw measurement, subtract the mean, and divide by the standard deviation. 
+Mathematically, the formula for that process is the following:
+                                    Z = (X - μ) / σ
+X represents the raw value of the measurement of interest. 
+Mu and sigma represent the parameters for the population from which the observation was drawn.
+
+After you standardize your data, you can place them within the standard normal distribution. In this manner,
+standardization allows you to compare different types of observations based on where each observation falls within its own distribution.
+
+Data standardization:-
+Data standardization is this process of making sure that your data set can be compared to other data sets.
+Data standardization is about making sure that data is internally consistent; that is, each data type has the same content and format.
+Standardized values are useful for tracking data that isn’t easy to compare otherwise.
+
+For example, 
+Suppose you and your friend went to different universities. One day, you both got your midterm grades for your Physics 101 classes. 
+Your professor sticks to the normal grading scale (out of 100), so you got a grade of 84; the test has a mean of 77 and 
+a standard deviation of 6. Your friend’s professor, though, uses his own grading scale, so she got a grade of 452. 
+Her test has a scale of 750, mean of 400, and standard deviation of 100.
+
+Both of you scored above average, but who did better? While the main data points might not be immediately comparable, 
+there is a way to standardize and compare the data points. Converting them to percentages shows that you came out ahead, 
+with an 84% compared to your friend’s 60%.
+
+Similarly, you can convert the scores to z-scores, which show how you each performed in comparison to your classmates. 
+This shows that you got a 1.16, meaning that you scored one standard deviation above average; while your friend got 0.52, 
+meaning that she only scored half of a standard deviation above average.
