@@ -9,7 +9,7 @@ For example, a coin toss has only two possible outcomes: heads or tails and
              2)If you choose head and while tossing tail came: fail.
 
 Criteria for Binomial Distribution:-
-1) The experiment consists of n repeated trials. In simple words, Experiment :-Tossing the coin 10 times so n=10
+1) The experiment consists of n fixed trials. In simple words, Experiment :-Tossing the coin 10 times so n=10
 2) Each trial can result in just two possible outcomes. We call one of these outcomes a success and the other, a failure.
    So, Tossing a coin will result in two outcome only i.e Head or Tail.
 3) The probability of success, denoted by P, is the same on every trial.
