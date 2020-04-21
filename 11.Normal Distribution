@@ -1,0 +1,20 @@
+Normal Distribution:-
+1) Normal Distribution is also known as the Gaussian distribution and the bell curve.
+2) The normal distribution is a probability function that describes how the values of a variable are distributed.
+3) They’re all symmetric about the center. The normal distribution cannot model skewed distributions.
+4) The mean, median, and mode are all equal.
+5) Half of the population is less than the mean and half is greater than the mean.
+
+Parameters of the Normal Distribution:-
+The parameters for the normal distribution define its shape and probabilities entirely.
+The normal distribution has two parameters:
+1) Mean:-
+   Mean defines the location of the peak for normal distributions. 
+   Most values cluster around the mean. On a graph, changing the mean shifts the entire curve left or right on the X-axis.
+ 
+2) Standard Deviation:-
+   Standard Deviation defines the width of the normal distribution. 
+   The standard deviation determines how far away from the mean the values tend to fall. 
+   It represents the typical distance between the observations and the average.
+   On a graph, changing the standard deviation either tightens or spreads out the width of the distribution along the X-axis. 
+   Larger standard deviations produce distributions that are more spread out.
