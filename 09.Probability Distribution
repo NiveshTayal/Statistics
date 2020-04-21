@@ -1,0 +1,17 @@
+Probability Distribution:-
+A probability distribution is a list of all of the possible outcomes of a random variable along with their corresponding probability values.
+To give a concrete example, here is the probability distribution of a fair 6-sided die.
+                           Outcome of Random Variable	 1	 2	 3	 4	 5	 6
+                                          Probability	1/6	1/6	1/6	1/6	1/6	1/6
+
+In simple words:-You have a dataset having data of 10 users, now imagine one column from your dataset i.e height(random variable).
+So we have 10 heights(possible outcome) of 10 users.
+So probability distribution provide us the propability of each height(possible outcome) of each users.
+Probability distribution is represented by graph.
+
+Probability distributions describe the dispersion of the values of a random variable. 
+Consequently, the kind of variable determines the type of probability distribution. 
+For a single random variable, statisticians divide distributions into the following two types:
+
+1) Discrete probability distributions for discrete variables
+2) Probability density functions for continuous variables
