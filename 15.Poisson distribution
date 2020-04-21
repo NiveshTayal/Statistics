@@ -6,4 +6,35 @@ can study for 6 hours on particular day.
 Example: A video store averages 400 customers every Friday night. 
          What is the probability that 600 customers will come in on any given Friday night?
 
+Criteria for Poisson distribution:-
+1) The experiment results in outcomes that can be classified as successes or failures.
+2) The average number of successes (μ) that occurs in a specified region is known. i.e mean is known.
+3) Outcomes are random. Occurance of one outcome does not affect the outcome of the other.
+4) Outcomes are rare compared to possible outcomes.
+
+Formula for Poisson Distribution:-
+                                P(x; μ) = (e^-μ)*(μ^x)/x!
+Where,
+e: A constant equal to approximately 2.71828. (Actually, e is the base of the natural logarithm system.)
+μ: The mean number of successes that occur in a specified region.
+x: The actual number of successes that occur in a specified region.
+P(x; μ): The Poisson probability that exactly x successes occur in a Poisson experiment, when the mean number of successes is μ.
+
+Properties of Poisson Distribution:-
+1) The mean of the distribution is equal to μ .
+2) The variance is also equal to μ .
+
+Example:-
+The average number of homes sold by the Acme Realty company is 2 homes per day. 
+What is the probability that exactly 3 homes will be sold tomorrow?
+Solution:-
+μ = 2; since 2 homes are sold per day, on average.
+x = 3; since we want to find the likelihood that 3 homes will be sold tomorrow.
+e = 2.71828; since e is a constant equal to approximately 2.71828.
+We plug these values into the Poisson formula as follows:
+                                     P(x; μ) = (e^-μ)*(μ^x)/x!
+                                     P(3; 2) = (2.71828^-2) (2^3) / 3!
+                                     P(3; 2) = (0.13534) (8) / 6
+                                     P(3; 2) = 0.180
+Thus, the probability of selling 3 homes tomorrow is 0.180 .
 
