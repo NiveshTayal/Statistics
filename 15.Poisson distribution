@@ -1,4 +1,9 @@
 Poisson distribution:-
 A Poisson distribution is a measure of how many times an event is likely to occur within "X" period of time.
-In simple words,
-Example: A video store averages 400 customers every Friday night. What is the probability that 600 customers will come in on any given Friday night?
+In simple words, Everyday i study for 4 hours daily so with the help of Poisson distribution we can find what is the probability that i 
+can study for 6 hours on particular day.
+
+Example: A video store averages 400 customers every Friday night. 
+         What is the probability that 600 customers will come in on any given Friday night?
+
+
