@@ -1,1 +1,24 @@
+Discrete Data:-
+Data that can only take certain values i.e cannot be in decimals.
+For example: the number of students in a class (you can't have half a student) means u can't say like we have 1.5 students.
 
+Discrete Probability Distribution:-
+1) Discrete probability functions are also known as probability mass functions.
+2) In Discrete Probability Distribution, the probabilities for all possible values must sum to one.
+3) For discrete probability distribution functions, each possible value has a non-zero likelihood/outcomes.
+
+Example:- The likelihood of rolling a specific number on a die is 1/6. 
+          The total probability for all six values equals one. When you roll a die, you inevitably obtain one of the possible values.
+          i.e when rolling a dice we get either {1,2,3,4,5,6}
+          Value   Probability
+            1        1/6
+            2        1/6
+            3        1/6
+            4        1/6
+            5        1/6
+            6      + 1/6
+              Total:- 1
+              
+Types of Discrete Distribution:-
+1) Binomial distribution to model binary data, such as coin tosses.
+2) Poisson distribution to model count data, such as the count of library book checkouts per hour.
