@@ -18,3 +18,15 @@ The normal distribution has two parameters:
    It represents the typical distance between the observations and the average.
    On a graph, changing the standard deviation either tightens or spreads out the width of the distribution along the X-axis. 
    Larger standard deviations produce distributions that are more spread out.
+
+Formula for Normal Distribution:-
+The Normal Equation. The value of the random variable Y is:
+                                 Y = { 1/[ σ * sqrt(2π) ] } * e-(x - μ)2/2σ2
+where X is a normal random variable, μ is the mean, σ is the standard deviation, π is approximately 3.14159, and 
+e is approximately 2.71828.
+
+Empirical Rule for normal distributions:-
+In all normal distributions, the Empirical Rule tells us that:
+1) About 68% of all data values will fall within +/- 1 standard deviation of the mean.
+2) About 95% of all data values will fall within +/- 2 standard deviations of the mean.
+3) About 99.7% of all data values will fall within +/- 3 standard deviations of the mean.
