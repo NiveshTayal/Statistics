@@ -1,0 +1,17 @@
+P-value:-
+1) P-value is the Probability that the null hypothesis is correct.
+2) P-values are calculated based on your sample data and under the assumption that the null hypothesis is true.
+3) Lower p-values indicate greater evidence against the null hypothesis.
+4) P is low the null must go(reject Null Hypothesis) / P is high the null fly(accept Null Hypothesis).
+5) Always compare your P-value to your significance level and if the P-value is less than your significance level, 
+   you can reject the null hypothesis.
+   
+Significance level:-
+1) The Significance level is the probability of rejecting the null hypothesis when it is true.
+2) The researcher determines the significance level before conducting the experiment means Significance level must always be known to 
+   Tester and is not calculated.
+3) The significance level, also denoted as alpha or α, is a measure of the strength of the evidence that must be present in your sample 
+   before you will reject the null hypothesis.
+4) For example, a significance level of 0.05 indicates a 5% risk of concluding that a difference exists when there is no actual difference.
+5) Level of Significance: α = 1 – C (0.10, 0.05, 0.01)
+   Where, Level of Confidence: C = 0.90, 0.95, 0.99 (90%, 95%, 99%)
