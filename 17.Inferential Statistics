@@ -1,0 +1,25 @@
+Inferential Statistics:-
+Inferential statistics takes data from a sample and makes inferences about the larger population from which the sample was drawn. 
+Because the goal of inferential statistics is to draw conclusions from a sample and generalize them to a population, 
+we need to have confidence that our sample accurately reflects the population.
+
+There are two main areas of inferential statistics:
+1) Estimating parameters -> This means taking a statistic from your sample data (for example the sample mean) and using it to say 
+   something about a population parameter (i.e. the population mean).
+2) Hypothesis tests -> This is where you can use sample data to answer research questions. 
+   For example, you might be interested in knowing if a new cancer drug is effective.
+
+Type of Test in Inferential Statistics:-
+1) One Sample test -> In this test you take one sample out of population and will check whether that sample mean is different from 
+   Population mean. One Sample test includes:-
+   a) One sample z test
+   b) One sample t test
+
+2) Two sample test -> You perform this test when you want to compare sample mean of two different population. Two sample test includes:-
+   a) Two sample z test
+   b) Two sample t test
+   c) Paired t test
+   d) Two sample standard deviation
+
+3) More than 2 sample :- When you have more than 2 samples from different populations. This includes:-
+   a) ANOVA (Analysis of Variance)
