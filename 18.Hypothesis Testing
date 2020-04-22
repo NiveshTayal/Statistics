@@ -1,0 +1,23 @@
+Hypothesis Testing:-
+Hypothesis testing  is a procedure in inferential statistics that assesses two mutually exclusive theories about the properties of a 
+population. For a generic hypothesis test, the two hypotheses are as follows:
+    1) Null hypothesis: There is no effect
+    2) Alternative hypothesis: There is an effect.
+
+The sample data must provide sufficient evidence to reject the null hypothesis and conclude that the effect exists in the population. 
+Ideally, a hypothesis test fails to reject the null hypothesis when the effect is not present in the population, 
+and it rejects the null hypothesis when the effect exists.
+
+Hypothesis tests use sample data to make inferences about the properties of a population. 
+
+Null hypothesis:-
+1) The null hypothesis is often displayed as H0.
+2) The null hypothesis is one of two mutually exclusive hypotheses in a hypothesis test.
+3) Typically, the null hypothesis states that the true effect size equals zero—that there is no difference between the groups.
+   Here group means population and sample.
+ 
+Alternative hypothesis:-
+1) The alternative hypothesis is often denoted as H1 or HA.
+2) The alternative hypothesis is one of two mutually exclusive hypotheses in a hypothesis test. 
+3) The alternative hypothesis states that the population parameter does not equal the null hypothesis value i.e the test can 
+   detect differences both greater than and less than the null value.
