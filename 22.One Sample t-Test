@@ -12,11 +12,11 @@ One-Sample t-Test Assumptions(When to use t-Test):-
 5) The sample size is smaller i.e less than 30. 
 
 Formula for t-Test:-
-                                            t = (x - Δ) / [ σ /sqrt(n) ]  
+                                            t = (x - Δ) / [ s /sqrt(n) ]  
 Where,
 x is the sample mean
 Δ is a specified value to be tested
-σ is the sample standard deviation
+s is the sample standard deviation
 n is the size of the sample. 
 
 Example:-
@@ -45,7 +45,7 @@ Step 3:-Find degrees of freedom:- The degrees of freedom (DF) is:
                                       DF = 25-1 => 24
                                       
 Step 4:-Compute test statistic:- The test statistic is a t-score (t) defined by the following equation.
-                             t = (x - Δ)/[ σ /sqrt(n) ]
+                             t = (x - Δ)/[ s /sqrt(n) ]
         In this example:- 
                              t = (130 – 100) / ((15 / √(25)) => 10
                
