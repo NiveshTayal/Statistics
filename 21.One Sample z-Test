@@ -1,0 +1,77 @@
+One-Sample z-Test:-
+A one-sample z-test is used to test whether a population parameter is significantly different from some hypothesized value.
+The one-sample z-test is used to test whether the mean of a population is greater than, less than, or not equal to a
+specific value. Because the standard normal distribution is used to calculate critical values for the test, this test is
+often called the one-sample z-test.
+
+One-Sample Z-Test Assumptions(When to use z-Test):-
+1) The data are continuous (not discrete).
+2) The data follow the normal probability distribution.
+3) The sample is a simple random sample from its population. Each individual in the population has an equal
+   probability of being selected in the sample.
+4) The population standard deviation is known.
+
+Formula for z-Test:-
+                                            z = (x - Δ) / [ σ /sqrt(n) ]  
+Where,
+x is the sample mean
+Δ is a specified value to be tested
+σ is the population standard deviation
+n is the size of the sample. 
+Look up the significance level of the z‐value in the standard normal table
+
+Example:-
+Question:-In national use, a vocabulary test is known to have a mean score of 68 and a standard deviation of 13. 
+          A class of 19 students takes the test and has a mean score of 65.
+          Is the class typical of others who have taken the test? Assume a significance level of p < 0.05?
+Solution:-
+Step 1:-Define hypotheses:- The table below shows three sets of null and alternative hypotheses. 
+        Each makes a statement about how the true population mean μ is related to some hypothesized value M.
+        Set	 Null hypothesis	Alternative hypothesis	Number of tails
+         1	    μ = M	           μ ≠ M                   2
+         2	    μ >= M	         μ < M	                 1
+         3	    μ <= M	         μ > M	                 1
+         In this example:-
+         null hypothesis: H0: μ = 68
+         alternative hypothesis: Ha : μ ≠ 68
+         
+Step 2:-Specify significance level:- Often, researchers choose significance levels equal to 0.01, 0.05, or 0.10.
+        Confidence Level	     Significance Level      Critical Value (Z-score)
+              0.90	              1-0.90=0.10                   1.645
+              0.91	                  0.09                      1.70
+              0.92	                  0.08                      1.75
+              0.93	                  0.07                      1.81
+              0.94	                  0.06                      1.88
+              0.95	                  0.05                      1.96
+              0.96	                  0.04                      2.05
+              0.97	                  0.03                      2.17
+              0.98	                  0.02                      2.33
+              0.99	                  0.01                      2.575
+        In this example:-
+        significance level: 0.05
+        Critical Value (Z-score): 1.96
+
+Step 3:-Compute test statistic:- The test statistic is a z-score (z) defined by the following equation.
+                             z = (x - Δ)/[ σ /sqrt(n) ]
+        In this example:- 
+                             z = (65 - 68)/[13/sqrt(19)] => -1.006
+        Note:- We get a z-score of negative 1.006. Because this is a two-sided test, it is not enough to just look at the left tail.
+               We also have to look at the equivalent of the right tail, or a positive 1.006.
+               
+Step 4:- Compute P-value:- The P-value is the probability of observing a sample statistic as extreme as the test statistic.
+         Since the test statistic is a z-score, use the z-table to assess the probability associated with the z-score.
+         The first way to find the p-value is to use the z-table. In the z-table, the left column will show values to the tenths place,
+         while the top row will show values to the hundredths place. 
+         In this example:-
+         If we have a z-score of -1.006, we need to round this to the hundredths place, or -1.0. 
+         In the left column, we will first find the tenths place, or -1.0. In the top row, we will find the hundredths place, or 0.
+         This results in a p-value of 0.1587, or 15.87%, for a z-score of negative 1.006. 
+         We also need to take the positive 1.006 into account, which is the upper right tail.
+         To calculate the true p-value, we just need to multiply 0.1587 by two, or 0.3174. 
+         This would be a p-value of 31.74%.
+         
+Step 5:- Evaluate null hypothesis:- The evaluation involves comparing the P-value to the significance level, and rejecting the 
+         null hypothesis when the P-value is less than the significance level.
+         In this example:-
+         Because –1.006 is between –1.96 and 1.96, the null hypothesis of population mean is 68 and cannot be rejected. 
+         That is, there is not evidence that this class can be considered different from others who have taken the test.
