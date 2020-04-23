@@ -1,0 +1,67 @@
+One Sample t-Test:-
+The one sample t test compares the mean of your sample data to a known value. 
+For example, you might want to know how your sample mean compares to the population mean. 
+You should run a one sample t test when you don’t know the population standard deviation or you have a small sample size.
+
+One-Sample t-Test Assumptions(When to use t-Test):-
+1) The data are continuous (not discrete).
+2) The data follow the normal probability distribution.
+3) The sample is a simple random sample from its population. Each individual in the population has an equal
+   probability of being selected in the sample.
+4) The population standard deviation is not known.
+5) The sample size is smaller i.e less than 30. 
+
+Formula for t-Test:-
+                                            t = (x - Δ) / [ σ /sqrt(n) ]  
+Where,
+x is the sample mean
+Δ is a specified value to be tested
+σ is the sample standard deviation
+n is the size of the sample. 
+
+Example:-
+Question:-Your company wants to improve sales. Past sales data indicate that the average sale was $100 per transaction. 
+          After training your sales force, recent sales data (taken from a sample of 25 salesmen) indicates an average sale of $130,
+          with a standard deviation of $15. Did the training work? Test your hypothesis at a 5% alpha level.
+Solution:-
+Step 1:-Define hypotheses:- The table below shows three sets of null and alternative hypotheses. 
+        Each makes a statement about how the true population mean μ is related to some hypothesized value M.
+        Set	 Null hypothesis	Alternative hypothesis	Number of tails
+         1	    μ = M	           μ ≠ M                   2
+         2	    μ >= M	         μ < M	                 1
+         3	    μ <= M	         μ > M	                 1
+         In this example:-
+         null hypothesis: H0:  μ = $100
+         alternative hypothesis: Ha :  μ > $100
+         
+Step 2:-Specify significance level:- Often, researchers choose significance levels equal to 0.01, 0.05, or 0.10.
+        In this example:-
+        significance level: 0.05
+
+Step 3:-Find degrees of freedom:- The degrees of freedom (DF) is:
+                                         DF = n - 1
+         where n is the number of observations in the sample.
+         In this example:-
+                                      DF = 25-1 => 24
+                                      
+Step 4:-Compute test statistic:- The test statistic is a t-score (t) defined by the following equation.
+                             t = (x - Δ)/[ σ /sqrt(n) ]
+        In this example:- 
+                             t = (130 – 100) / ((15 / √(25)) => 10
+               
+Step 4:-Calculate t-critical value:- You need two values to find this:
+        1) The alpha level
+        2) The degrees of freedom
+        In this example:- 
+        Look up 24 degrees of freedom in the left column and 0.05 in the top row. 
+        The intersection is 1.711.This is your one-tailed critical t-value.
+        Note:- What this critical value means is that we would expect most values to fall under 1.711. 
+        If our calculated t-value (from Step 3) falls within this range, the null hypothesis is likely true.
+         
+Step 5:- Evaluate null hypothesis:- If our calculated t-value (from Step 3) falls within t-critical (from Step 4), 
+         the null hypothesis is likely true.
+         In this example:- 
+         The t-value i.e 10 does not fall into the range i.e t-critical (1.711), so we can reject the null hypothesis. 
+         The value of 10 falls into the rejection region (the left tail).
+         
+In other words, it’s highly likely that the mean sale is greater. The sales training was probably a success.
