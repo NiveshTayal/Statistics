@@ -1,0 +1,26 @@
+When to use Paired T-Test:-
+1) When two Populations are dependent on each other.
+2) Where you have two samples in which observations in one sample can be paired with observations in the other sample. 
+3) If the values in one sample affect the values in the other sample, (the samples are dependent.)
+Example: Blood pressure before and after a specific medicine.
+
+Paired T-Test:-
+Paired T-Test is used to determine whether the mean of a dependent variable (e.g., weight, anxiety level, salary, reaction time, etc.) 
+is the same in two related groups (e.g., two groups of participants that are measured at two different "time points" or who undergo 
+two different "conditions").
+
+Formula for Paired T-Test:-
+                                              t= d/sqrt((s)²/n)
+Where,
+d = the mean of differences
+s = the standard deviation of differences
+n = sample size
+
+Steps for Paired T-Test:-
+Step 1:- Find the difference between two set of readings as d1, d2 …. dn.
+Step 2:- Find the mean and standard deviation of these differences.
+Step 3:- Apply formula and find test statistics.
+Step 4:- Find degree of freedom as df= n-1 (n=Smaple size).
+Step 5:- Find Significance level (already given in question).
+Step 6:- Find t-critical value from t table with the help of alpha nd df.
+Step 7:- Compare your calculated value (Step 3) to your table value (Step 6).
