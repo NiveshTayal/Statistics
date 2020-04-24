@@ -1,0 +1,42 @@
+Two Sample z-Test:-
+1) A Two sample z-test is a statistical test to determine whether two population means are different when the variances are known and 
+   the sample size is large.
+2) It can be used to test hypotheses in which the z-test follows a normal distribution.
+3) Two sample z-test check if the difference between the average (mean) of two groups (populations) is significant, using sample data.
+
+Two-Sample Z-Test Assumptions(When to use z-Test):-
+1) The data follow the normal probability distribution.
+2) The standard deviations of both populations are known.
+3) Expected difference d between the populations's average is known.
+
+Formula for Two-Sample Z-Test:-
+                                   z = (x1 - x2 -Δ) / sqrt((σ1)²/n1 + (σ2)²/n2)
+Where,
+x1 and x2 are the means of the two samples
+Δ is the hypothesized difference between the population means (0 if testing for equal means)
+σ1 and σ2 are the standard deviations of the two populations
+n1 and n2 are the sizes of the two samples.
+
+Example:-
+Question:-The amount of a certain trace element in blood is known to vary with a standard deviation of 14.1 ppm (parts per million) 
+          for male blood donors and 9.5 ppm for female donors. Random samples of 75 male and 50 female donors yield concentration means 
+          of 28 and 33 ppm, respectively. What is the likelihood that the population means of concentrations of the element are the 
+          same for men and women?
+Solution:-
+Step 1:-Define hypotheses:-
+                 Null hypothesis: H0 : μ1 = μ2
+                               or H0 : μ1 – μ2= 0
+                 Alternative hypothesis : Ha : μ1 ≠ μ2
+
+Step 2:-Specify significance level:-Often, researchers choose significance levels equal to 0.01, 0.05, or 0.10.
+
+Step 3:-Compute test statistic:- The test statistic is a z-score (z) defined by the following equation.
+                                   z = (x1 - x2 -Δ) / sqrt((σ1)²/n1 + (σ2)²/n2)
+        In this example:- 
+                                   z= (28-33-0)/sqrt((14.1)²/75 + (9.5)²/50) => -2.37
+                                   
+Step 4:- Find z-Critical value:- With the help of significance level and type of tail test i.e (left, right or both), you can find
+                                 z-critical value.
+                                 
+Step 5:- Evaluate null hypothesis:- The evaluation involves comparing the test statistic(from step 3) to the z-Critical value(from step 4)
+                                    , and rejecting the null hypothesis when test statistic lies outside the range of z-Critical value.
