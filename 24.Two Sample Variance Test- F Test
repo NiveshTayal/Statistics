@@ -1,0 +1,38 @@
+Two Sample Variance Test- F Test:-
+1) F-test is used for testing equality of two variances from different populations.
+2) The populations from which the two samples are drawn are approximately normally distributed.
+3) The two populations are independent of each other.
+
+Two Sample Variance Test- F Test Assumptions:-
+1) The larger variance should always go in the numerator (the top number) to force the test into a right-tailed test. 
+   Right-tailed tests are easier to calculate.
+2) For two-tailed tests, divide alpha by 2 before finding the right critical value.
+3) If you are given standard deviations, they must be squared to get the variances.
+
+Formula for F-Test:-
+                                           F = (s1)² / (s2)²
+Where,
+s1 and s2= variances of two populations
+ 
+Steps to compare two variances by F-Test:-
+Step 1: Write your hypothesis statements:
+        Ho: No difference in variances.
+        Ha: Difference in variances.
+        
+Step 2: Calculate your F critical value. Put the highest variance as the numerator and the lowest variance as the denominator:
+                F Statistic = variance 1/ variance 2
+ 
+Step 3: Calculate the degrees of freedom:
+        The degrees of freedom in the table will be the sample size -1, so:
+        df1= sample size-1 (here sample size is for that population whose variance is larger) 
+        df2= sample size-1 (here sample size is for that population whose variance is smaller) 
+
+Step 4: Choose an alpha level:- If No alpha was stated in the question, so use 0.05 (the standard “go to” in statistics).
+                                This needs to be halved for the two-tailed test, so use 0.025.
+                                
+Step 5: Find the critical F Value using the F Table:-
+        There are several tables, so make sure you look in the alpha = .025 table. 
+        Critical F (df1,df2) at alpha (0.025)
+
+Step 6: Compare your calculated value (Step 2) to your table value (Step 5):-
+        If your calculated value is higher than the table value, you can reject the null hypothesis as accept that.
