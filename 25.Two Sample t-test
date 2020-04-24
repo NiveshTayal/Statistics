@@ -1,0 +1,34 @@
+Two Sample t-test:-
+1) A Two sample t-test is a statistical test to determine whether there is a difference between two groups within the population.
+2) Population variances are not usually known. 
+3) The approach we use instead is to pool sample variances and use the t distribution.
+4) If the values in one sample reveal no information about those of the other sample, then the samples are independent.
+   Example:  Blood pressure of male/female
+
+Cases where the t distribution is used:-
+1) Independent Populations
+   a) Equal variances
+   b) Unequal variances
+2) Dependent Populations
+   a) Paired samples
+   
+Formula for t-test:-
+Note:- Always perform Two sample variance F test to check whether the variances are Equal or unequal for population.
+If Equal variances:-
+                     t = (x1 - x2) -Δ) / s*sqrt(1/n1 + 1/n2)
+         Where,
+         x1 and x2 are the means of the two samples
+         Δ is the hypothesized difference between the population means (0 if testing for equal means)
+         n1 and n2 are the sizes of the two samples.
+                      s= (n1-1)(s1)²+(n2-1)(s2)²/(n1+n2-2)
+         Where, s1 and s2 are the samples standard deviation.
+         Degree of Freedom :- n1+n2-2
+         
+If UnEqual variances:-
+                     t = (x1 - x2) -Δ) / sqrt((s1)²/n1 + (s2)²/n2)
+         Where,
+         x1 and x2 are the means of the two samples
+         Δ is the hypothesized difference between the population means (0 if testing for equal means)
+         n1 and n2 are the sizes of the two samples.
+         s1 and s2 are the samples standard deviation.
+         Degree of Freedom :- ((s1)²/n1 + (s2)²/n2)²/(((s1)²/n1)²/(n1-1)+((s2)²/n2)²/(n2-1))
