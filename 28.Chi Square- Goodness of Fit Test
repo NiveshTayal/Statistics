@@ -1,0 +1,44 @@
+Chi Square- Goodness of Fit Test:-
+1) Goodness of Fit Test tells you if your sample data represents the data you would expect to find in the actual population.
+2) The goodness of fit test is a statistical hypothesis test to see how well sample data fit a distribution from a population 
+   with a normal distribution.
+3) This test shows if your sample data represents the data you would expect to find in the actual population or if it is somehow skewed.
+4) Chi Square Goodness of Fit can be used for any time of data: Continuous or Discrete.
+
+
+Formula for Chi Square Test:-
+                                           X²=(O-E)²/E
+Where, 
+X²= Chi-Square goodness of fit test 
+O= observed value 
+E= expected value
+
+Example:-
+Question:-A coin is flipped 100 times. Number of heads are noted. Is this coin biased?
+                         Expected   Observed 
+                             50         51 
+                             50         52 
+                             50         56 
+                             50         82 
+                             50         65
+Solution:-
+Step 1:-Define hypotheses:- 
+        H0: The data follow a specified distribution. 
+        Ha: The data do not follow the specified distribution. 
+
+Step 2:-Compute test statistic:- The test statistic is a Chi Square Test defined by the following equation.
+                             X²=(O-E)²/E
+        In this example:- 
+                             X² = 25.8
+
+Step 3:- Compute degrees of freedom and alpha value:- 
+                                               df=n-1
+         In this example:-
+                                               df=5-1=> 4
+                                               alpha value= 0.95(given)
+Step 4:- Critical Statistic: Chi square for k-1 degrees of freedom for specific alpha with the help of Chi square table.
+         In this example:-
+                            X²(4,0.95)= 9.49
+Step 4:- Evaluate null hypothesis:- The evaluation involves comparing the test statistic(step 2) to the Critical Statistic(step 4).
+         In this example:-
+         We are rejecting the null hypothesis as test statistic>Critical Statistic.
